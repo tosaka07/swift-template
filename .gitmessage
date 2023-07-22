@@ -1,0 +1,20 @@
+
+# === Format ===
+# type(optional scope): <description>
+#
+# === Scope ===
+# feature...etc 
+#
+# === Type ===
+# feat: 新機能
+# fix: バグ修正
+# refactor: リファクタリングのための変更（機能追加やバグ修正を含まない）
+# perf: パフォーマンスの改善のための変更
+# test: 不足テストの追加や既存テストの修正
+# style: フォーマットの変更（コードの動作に影響しないスペース、フォーマット、セミコロンなど）
+# build: ビルドシステムや外部依存に関する変更（例: npm, pub, gradle）
+# ci: CI用の設定やスクリプトに関する変更（例: Circle, Bitrise)
+# chore: 雑事（カテゴライズする必要ないようなもの）
+# docs: ドキュメントのみの変更
+# revert: コミット取り消し（git revert）
+#

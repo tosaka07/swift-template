@@ -1,5 +1,5 @@
-import SwiftUI
 import AppModule
+import SwiftUI
 
 struct ContentView: View {
   var body: some View {
@@ -8,7 +8,7 @@ struct ContentView: View {
         .imageScale(.large)
         .foregroundStyle(.tint)
       Text(AppModule.text)
-   }
+    }
     .padding()
   }
 }

@@ -8,12 +8,11 @@ let package = Package(
     .library(
       name: "AppModule",
       type: .static,
-      targets: ["AppModule"]),
+      targets: ["AppModule"])
   ],
-  dependencies: [
-  ],
+  dependencies: [],
   targets: [
     .target(
-      name: "AppModule"),
+      name: "AppModule")
   ]
 )
